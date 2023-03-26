@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cardview_dark_background"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="63"
+        android:gravity="bottom"
+        android:orientation="vertical">
+r
+        <TextView
+            android:id="@+id/islem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:paddingEnd="25dp"
+            android:textColor="@color/white"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/sonuc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:paddingEnd="25dp"
+            android:textColor="@color/white"
+            android:text="0"
+            android:textSize="40sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="37"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/buttonClear"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/cardview_dark_background"
+                android:contentDescription="clear"
+                app:srcCompat="@drawable/clear" />
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="64dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/buttonDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/cardview_dark_background"
+                android:contentDescription="delete"
+                app:srcCompat="@drawable/delete" />
+
+            <ImageButton
+                android:id="@+id/buttonDiv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/cardview_dark_background"
+                android:contentDescription="div"
+                app:srcCompat="@drawable/div" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/cardview_dark_background"
+                android:contentDescription="7"
+                app:srcCompat="@drawable/seven" />
+
+            <ImageButton
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/cardview_dark_background"
+                android:contentDescription="8"
+                app:srcCompat="@drawable/eight" />
+
+            <ImageButton
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/cardview_dark_background"
+                android:contentDescription="9"
+                app:srcCompat="@drawable/nine" />
+
+            <ImageButton
+                android:id="@+id/buttonMulti"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/cardview_dark_background"
+                android:contentDescription="multi"
+                app:srcCompat="@drawable/multi" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/cardview_dark_background"
+                android:contentDescription="4"
+                app:srcCompat="@drawable/four" />
+
+            <ImageButton
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/cardview_dark_background"
+                android:contentDescription="5"
+                app:srcCompat="@drawable/five" />
+
+            <ImageButton
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/cardview_dark_background"
+                android:contentDescription="6"
+                app:srcCompat="@drawable/six" />
+
+            <ImageButton
+                android:id="@+id/buttonMinus"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/cardview_dark_background"
+                android:contentDescription="minus"
+                app:srcCompat="@drawable/minus" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/cardview_dark_background"
+                android:contentDescription="1"
+                app:srcCompat="@drawable/one" />
+
+            <ImageButton
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/cardview_dark_background"
+                android:contentDescription="2"
+                app:srcCompat="@drawable/two" />
+
+            <ImageButton
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/cardview_dark_background"
+                android:layout_weight="1"
+                android:contentDescription="3"
+                app:srcCompat="@drawable/three" />
+
+            <ImageButton
+                android:id="@+id/buttonPlus"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/cardview_dark_background"
+                android:contentDescription="plus"
+                app:srcCompat="@drawable/plus" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/view0"
+                android:layout_width="64dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/button0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/cardview_dark_background"
+                android:contentDescription="0"
+                app:srcCompat="@drawable/zero" />
+
+            <ImageButton
+                android:id="@+id/buttonComma"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/cardview_dark_background"
+                android:contentDescription="comma"
+                app:srcCompat="@drawable/comma" />
+
+            <ImageButton
+                android:id="@+id/buttonEqual"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/cardview_dark_background"
+                android:contentDescription="equal"
+                app:srcCompat="@drawable/equal" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
