@@ -1,5 +1,6 @@
 # Mobil-Programlama
 Mobil programlama ödevleri
+Ödev2
 
 ![Ekran görüntüsü 2023-04-02 231213](https://user-images.githubusercontent.com/111683676/229376817-5f68a35a-f196-4d98-9d31-8b4b127be78e.png)
 ![Ekran görüntüsü 2023-04-02 231242](https://user-images.githubusercontent.com/111683676/229376824-c6d6d834-a52f-4512-960e-862f86f8ff30.png)
