@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center"
-    tools:context=".SearchFragment">
+    android:orientation="vertical">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <SearchView
+        android:id="@+id/searchView"
         android:layout_gravity="center"
-        android:textSize="25sp"
-        android:text="Search Fragment" />
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_view_bg"
+        android:layout_marginTop="20dp"
+        android:outlineAmbientShadowColor="@color/purple"
+        android:outlineSpotShadowColor="@color/black" />
 
-</FrameLayout>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+</LinearLayout>

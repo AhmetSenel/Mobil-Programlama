@@ -88,5 +88,6 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="121dp"
         android:layout_marginTop="589dp"
+
         android:text="Admin Giriş" />
 </RelativeLayout>

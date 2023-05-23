@@ -100,9 +100,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void resetData() {
+        // Kullanıcı adı ve şifreleri sıfırla
         db.delete("users", null, null);
-        Toast.makeText(this, "Veriler Sıfırlandı", Toast.LENGTH_SHORT).show();
+
+        // Kullanıcıya bilgilerin sıfırlandığı mesajını göster
+        Toast.makeText(this, "Kullanıcı Bilgileri Sıfırlandı", Toast.LENGTH_SHORT).show();
     }
+
+
 
     @Override
     protected void onDestroy() {
