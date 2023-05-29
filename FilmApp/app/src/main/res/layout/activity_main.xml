@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context=".MainActivity" >
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="312dp"
+        android:layout_height="347dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="168dp"
+        android:layout_marginEnd="50dp">
+
+
+        <EditText
+            android:id="@+id/kullaniciAdi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:backgroundTint="@color/white"
+            android:ems="10"
+            android:hint="Eposta"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/sifre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/white"
+            android:ems="10"
+            android:hint="Şifre"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/kullaniciAdi"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/kullaniciAdi"
+            app:layout_constraintTop_toBottomOf="@+id/kullaniciAdi" />
+
+        <Button
+            android:id="@+id/buttonGiris"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:text="Giriş"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/sifre"
+            app:layout_constraintHorizontal_bias="0.478"
+            app:layout_constraintStart_toStartOf="@+id/sifre"
+            app:layout_constraintTop_toBottomOf="@+id/sifre" />
+
+        <Button
+            android:id="@+id/buttonKayit"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:text="Kayıt Ol"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/buttonGiris"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/buttonGiris"
+            app:layout_constraintTop_toBottomOf="@+id/buttonGiris" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/buttonAdmin"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="589dp"
+        android:text="Admin Giriş"
+        android:visibility="invisible"/>
+</RelativeLayout>

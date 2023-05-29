@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "552266192984",
+    "project_id": "filmapp1-a7328",
+    "storage_bucket": "filmapp1-a7328.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552266192984:android:a74172925cab46e669122d",
+        "android_client_info": {
+          "package_name": "com.example.dizifilmapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552266192984-dp2hu9une1o77ssnm5dckou7hvf7efgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ747B4PB7IxE3lI78IN5JwWa46ePcyBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552266192984-dp2hu9une1o77ssnm5dckou7hvf7efgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
