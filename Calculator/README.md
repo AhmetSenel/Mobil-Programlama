@@ -2,7 +2,6 @@
 Mobil programlama ödev1
 
 
-https://user-images.githubusercontent.com/111683676/227771612-19a8f3a0-6d28-482e-9cad-6b9f6ec249e1.mp4
 
 ![Ekran görüntüsü 2023-04-02 225159](https://user-images.githubusercontent.com/111683676/229375922-d9ce6ece-ba2d-4a5b-9498-f1c4ba9d8879.png)
 
